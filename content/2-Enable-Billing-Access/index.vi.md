@@ -7,6 +7,7 @@ pre: " <b> 2. </b> "
 ---
 
 #### Objective
+
 - Enable **IAM User and Role Access to Billing Information**.
 - Allow IAM users to view Billing & Cost information in AWS Console.
 - Expected outcome: IAM user can access the **Billing** section.
@@ -14,6 +15,7 @@ pre: " <b> 2. </b> "
 ---
 
 ### Prerequisites
+
 - AWS account with **AdministratorAccess** or permission to manage **Account Settings**.
 - An existing IAM user that needs billing access enabled.
 - Browser logged in to **AWS Management Console**.
@@ -21,33 +23,37 @@ pre: " <b> 2. </b> "
 ---
 
 #### Step 1. Open Account Settings
-1. Log in to **AWS Management Console**.  
+
+1. Log in to **AWS Management Console**.
 2. Select **Account** in the **AWS Account Settings** section.
 
-![Error Picture](/static/images/AWS-Pic/accout.png)
+![Error Picture](/NguyenTruongBach.github.io/static/images/AWS-Pic/accout.png)
 
-![Error Picture](/static/images/AWS-Pic/click-accout.png)
+![Error Picture](/NguyenTruongBach.github.io/static/images/AWS-Pic/click-accout.png)
 
 ---
 
 #### Step 2. Navigate to IAM User and Role Access to Billing Information
+
 1. Scroll down to **IAM User and Role Access to Billing Information**.
 2. Click **Edit** on the right-hand side.
 
-![Error Picture](/static/images/AWS-Pic/billing-edit.png)
+![Error Picture](/NguyenTruongBach.github.io/static/images/AWS-Pic/billing-edit.png)
 
 ---
 
 #### Step 3. Enable IAM Access to Billing
+
 1. Check the box **Activate IAM Access**.
 2. Click **Update** to save the changes.
 
-![Error Picture](/static/images/AWS-Pic/billing-activate.png)
+![Error Picture](/NguyenTruongBach.github.io/static/images/AWS-Pic/billing-activate.png)
 
 ---
 
 ### Expected Outcome
-![Error Picture](/static/images/AWS-Pic/billing-done.png)
+
+![Error Picture](/NguyenTruongBach.github.io/static/images/AWS-Pic/billing-done.png)
 
 - IAM user can access the **Billing** section in AWS Console.
 - Screenshot shows that **IAM Access** has been successfully enabled.
